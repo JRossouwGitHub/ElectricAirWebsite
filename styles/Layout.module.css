@@ -1,0 +1,14 @@
+.zindex{
+    z-index: 99;
+}
+
+.stt{
+    color: white;
+    background-color: black;
+    z-index: 99;
+}
+
+.stt:hover{
+    color: black;
+    background-color: white;
+}

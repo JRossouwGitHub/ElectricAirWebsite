@@ -1,0 +1,66 @@
+.header{
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.link{
+    background-color: none;
+    width: 50%;
+}
+
+.linkM{
+    background-color: none;
+    color: var(--secondary);
+}
+
+.logo{
+    display: inline-flex;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+    vertical-align: middle;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo:link{
+    text-decoration: none;
+}
+
+.Elink, .Alink{
+    font-size: 64px;
+}
+
+.Elink{
+    color: var(--primary);
+}
+
+.Alink{
+    color: var(--secondary);
+}
+
+.Slink{
+    font-size: 24px;
+    color: black;
+}
+
+.ElinkM, .AlinkM{
+    font-size: 36px;
+}
+
+.ElinkM{
+    color: var(--primary);
+}
+
+.AlinkM{
+    color: var(--secondary);
+}
+
+.SlinkM{
+    font-size: 16px;
+    color: black;
+}

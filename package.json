@@ -1,0 +1,26 @@
+{
+  "name": "electric-air-website",
+  "version": "0.0.1",
+  "description": "Electric Air Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "author": "Jacques Rossouw | PalmTop",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styles": "^5.0.2",
+    "install": "^0.13.0",
+    "next": "^12.0.2",
+    "npm": "^8.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

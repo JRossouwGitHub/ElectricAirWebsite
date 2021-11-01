@@ -24,7 +24,7 @@ import BuildRoundedIcon from '@mui/icons-material/BuildRounded';
 import HomeRepairServiceRoundedIcon from '@mui/icons-material/HomeRepairServiceRounded';
 import PermPhoneMsgRoundedIcon from '@mui/icons-material/PermPhoneMsgRounded';
 import Footer from '../components/Footer';
-import EALogo from '../img/EA Symbol.png'
+import EALogo from '../img/Icons/EA Symbol.png'
 
 const useStyles = makeStyles({
     button: {
@@ -142,7 +142,7 @@ const NavBar = () => {
                 {list('left')}
             </Drawer>
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </div>
     )
 }

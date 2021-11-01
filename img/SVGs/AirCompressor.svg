@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+	<title>New Project</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #808080;stroke: #ffffff;stroke-width: 4.38 } 
+		.shp1 { fill: #808080 } 
+		.shp2 { fill: #808080;stroke: #ffffff;stroke-width: 2 } 
+	</style>
+	<path id="Layer 1" class="shp0" d="M413 370C364.89 370 326 331.11 326 283C326 234.89 364.89 196 413 196C461.11 196 500 234.89 500 283C500 331.11 461.11 370 413 370Z" />
+	<path id="Layer 1 copy" class="shp0" d="M87 370C38.89 370 0 331.11 0 283C0 234.89 38.89 196 87 196C135.11 196 174 234.89 174 283C174 331.11 135.11 370 87 370Z" />
+	<path id="Shape 1" class="shp1" d="M82 199L418 199L418 367L82 367L82 199Z" />
+	<path id="Layer 3" class="shp2" d="M220.26 274.79L68 199.54L112.66 77.58L292.52 77.45L359.02 199.34L220.26 274.79Z" />
+	<path id="Shape 2" class="shp2" d="M370 354L396 354L396 420L370 420L370 354Z" />
+	<path id="Shape 4 copy" class="shp2" d="M357.86 250L352 246.43L411.52 126.48L417.38 130.05L357.86 250Z" />
+	<path id="Layer 2" class="shp2" d="M96 416C70.56 416 50 395.44 50 370C50 344.56 70.56 324 96 324C121.44 324 142 344.56 142 370C142 395.44 121.44 416 96 416ZM411.5 145C405.14 145 400 139.86 400 133.5C400 127.14 405.14 122 411.5 122C417.86 122 423 127.14 423 133.5C423 139.86 417.86 145 411.5 145Z" />
+</svg>

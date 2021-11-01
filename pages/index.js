@@ -41,7 +41,7 @@ const index = () => {
                                     <br /><br />
                                     Electric Air continuously strives to provide our clients the highest possible standard and service. Here, we believe every customer is important.
                                     <br /><br />
-                                    We provide a full range of services (find out more) such as design, supply, installation, commissioning as well as servicing and maintenance.
+                                    We provide a full range of services (<Link href='/services'><strong className={stylesIndex.nostyle}>find out more</strong></Link>) such as design, supply, installation, commissioning as well as servicing and maintenance.
                                     <br /><br />
                                     Electric Air also provide a 24/7 breakdown service and with more than 15 years experience in the industry, our technicians are fully equiped to effeciently repair your equipment with minimal downtime and disruption to your business.
                                 </div>

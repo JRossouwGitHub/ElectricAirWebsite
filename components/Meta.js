@@ -9,13 +9,13 @@ const Meta = ({title, description}) => {
             <meta name="author" content="Jacques Rossouw | PalmTop" />
             <meta name="description" content={description} />
             <link rel="shortcut icon" href='/EA favicon.ico' />
-            <title>{title}</title>
+            <title>Electric Air | {title}</title>
         </Head>
     )
 }
 
 Meta.defaultProps = {
-    title: 'Electric Air | Air Compressor Sales & Service',
+    title: 'Air Compressor Sales & Service',
     description: 'Electric Air is a New Zealand, family owned business based in Hamilton, who have been delivering compressed air and pnuematic solutions to customers in the Waikato.'
 }
 

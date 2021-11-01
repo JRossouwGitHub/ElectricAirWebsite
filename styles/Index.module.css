@@ -93,3 +93,13 @@
 .contact>h1{
     color: var(--primary);
 }
+
+.nostyle{
+    text-decoration: underline;
+}
+
+.nostyle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--primary);
+}

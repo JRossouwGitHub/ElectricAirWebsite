@@ -22,11 +22,16 @@
     color: white;
 }
 
-.services{
+.introM{
+    margin: -15px 15px 15px 15px;
+    color: white;
+}
+
+.services, .contact{
     text-align: center;
 }
 
-.services>h1{
+.services>h1, .products>h1{
     color: var(--primary);
 }
 
@@ -48,17 +53,43 @@
 }
 
 .cardletIcon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -50px;
+    width: max-content;
+    height: max-content;
     color: var(--primary);
     font-size: 48px;
     background-color: white;
-    width: 65px;
-    height: 65px;
-    margin: 0 auto;
-    margin-top: -50px;
     border-radius: 60px;
     border: 2px solid var(--secondary);
+    padding: 10px;
 }
 
 .fom{
     margin-top: 25px;
+}
+
+.products{
+    background-color: var(--offWhite);
+    color: var(--secondary);
+    text-align: center;
+}
+
+.products>h1{
+    padding-top: 21.44px;
+}
+
+.img2{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    border: 2px solid var(--primary);
+}
+
+.contact>h1{
+    color: var(--primary);
 }

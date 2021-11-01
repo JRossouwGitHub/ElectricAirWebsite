@@ -1,5 +1,6 @@
 import styles from '../styles/Layout.module.css'
 import Meta from '../components/Meta'
+import Tabs from '../components/Tabs'
 import NavBar from '../components/NavBar'
 import ScrollToTop from './ScrollToTop'
 import Fab from '@mui/material/Fab';

@@ -8,6 +8,7 @@ const Meta = ({title, description}) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="author" content="Jacques Rossouw | PalmTop" />
             <meta name="description" content={description} />
+            <link rel="shortcut icon" href='/EA favicon.ico' />
             <title>{title}</title>
         </Head>
     )

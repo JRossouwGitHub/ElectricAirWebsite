@@ -62,32 +62,32 @@ const NavBar = () => {
           <List className={styles.linkM}>
                 <Link href="/">
                     <ListItem button>
-                        <ListItemIcon>
-                            <HomeRoundedIcon color="primary" />
+                        <ListItemIcon className={styles.linkImg}>
+                            <ion-icon name="home"></ion-icon>
                         </ListItemIcon>
                         <ListItemText primary="Home" className={styles.linkM} />
                     </ListItem>
                 </Link>
                 <Link href="/services">
                     <ListItem button>
-                        <ListItemIcon>
-                            <BuildRoundedIcon color="primary" />
+                        <ListItemIcon className={styles.linkImg}>
+                            <ion-icon name="construct"></ion-icon>
                         </ListItemIcon>
                         <ListItemText primary="Services" className={styles.linkM} />
                     </ListItem>
                 </Link>
-                <Link href="/portfolio">
+                <Link href="/products">
                     <ListItem button>
-                        <ListItemIcon>
-                            <HomeRepairServiceRoundedIcon color="primary" />
+                        <ListItemIcon className={styles.linkImg}>
+                            <ion-icon name="pricetags"></ion-icon>
                         </ListItemIcon>
-                        <ListItemText primary="Portfolio" className={styles.linkM} />
+                        <ListItemText primary="Products" className={styles.linkM} />
                     </ListItem>
                 </Link>
                 <Link href="/contact">
                     <ListItem button>
-                        <ListItemIcon>
-                            <PermPhoneMsgRoundedIcon color="primary" />
+                        <ListItemIcon className={styles.linkImg}>
+                            <ion-icon name="call"></ion-icon>
                         </ListItemIcon>
                         <ListItemText primary="Contact" className={styles.linkM} />
                     </ListItem>
@@ -141,6 +141,8 @@ const NavBar = () => {
             >
                 {list('left')}
             </Drawer>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </div>
     )
 }

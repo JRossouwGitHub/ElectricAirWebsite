@@ -1,0 +1,59 @@
+.root{
+    display: flex;
+}
+
+.linkBtn{
+    display: block;
+    background-color: none;
+    margin: 0 auto;
+}
+
+.linkBtnActive{
+    display: block;
+    background-color: none;
+    margin: 0 auto;
+    border-bottom: 4px solid var(--secondary);
+}
+
+
+.link{
+    color: var(--primary);
+}
+
+.link:hover{
+    background-color: none;
+    color: var(--secondary);
+}
+
+.linkImgActive{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 45px;
+    padding: 15px;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 45px;
+}
+
+.linkImgActive:hover{
+    cursor: pointer;
+}
+
+.linkImg{
+    display: block;
+    width: min-content;
+    margin: 0 auto;
+    font-size: 45px;
+    padding: 15px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 45px;
+}
+
+.linkImg:hover{
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    border-radius: 45px;
+    cursor: pointer;
+}

@@ -5,7 +5,7 @@ const ID = ({ID, name, email, mobile}) => {
     return (
         <div>
             <div className={stylesContact.idImg}>
-                <div  className={stylesContact.img}>
+                <div className={stylesContact.img}>
                     <Image
                         src={ID}
                         alt={name + ' ID Img'}

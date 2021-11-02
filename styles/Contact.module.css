@@ -1,0 +1,111 @@
+.title{
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    color: var(--primary);
+    width: 80%;
+    border-bottom: 4px solid var(--primary);
+}
+
+.subTitle{
+    color: var(--secondary);
+}
+
+.details{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.details p{
+    padding-top: 10px;
+}
+
+.details a:link, .details a:hover, .details a:visited, .details a:active{
+    color: var(--primary);
+}
+
+
+.green{
+    color: var(--primary);
+}
+
+.idDetails{
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: top;
+    color: var(--secondary);
+}
+
+.idImg{
+    display: flex;
+}
+
+.img{
+    border: 2px solid var(--primary);
+}
+
+.grid{
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.formDiv{
+    text-align: left; 
+    width: 75%; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.form .input, .form .textarea{
+    width: 75%;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 1%;
+    font-size: 18px;
+    padding: 3% 0px 1% 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form .textarea{
+    min-height: 150px;
+}
+
+.btn{
+    width: 20%;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.btnM{
+    width: 35%;
+    margin-left: 1%;
+    font-size: 18px;
+}
+
+.map{
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.mapM{
+    padding-bottom: 75px;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.iframe{
+    border: 2px solid var(--secondary);
+    width: 100%;
+    height: 350px;
+}
+
+.iframeM{
+    border: 2px solid var(--secondary);
+    width: 100%;
+    height: 150px;
+}

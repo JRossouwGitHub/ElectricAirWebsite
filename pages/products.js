@@ -49,43 +49,57 @@ const products = () => {
                                     </ListItemText>
                                 </ListItemButton>
                             </Link>
-                            <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
-                                <ListItemText>
-                                    <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Reciprocating</span>
-                                </ListItemText>
-                            </ListItemButton>
-                            <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
-                                <ListItemText>
-                                    <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Oil Free</span>
-                                </ListItemText>
-                            </ListItemButton>
-                            <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
-                                <ListItemText>
-                                    <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Portable</span>
-                                </ListItemText>
-                            </ListItemButton>
+                            <Link href='/reciprocating'>
+                                <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
+                                    <ListItemText>
+                                        <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Reciprocating</span>
+                                    </ListItemText>
+                                </ListItemButton>
+                            </Link>
+                            <Link href='/oilfree'>
+                                <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
+                                    <ListItemText>
+                                        <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Oil Free</span>
+                                    </ListItemText>
+                                </ListItemButton>
+                            </Link>
+                            <Link href='/portable'>
+                                <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
+                                    <ListItemText>
+                                        <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Portable</span>
+                                    </ListItemText>
+                                </ListItemButton>
+                            </Link>
                         </List>
                     </Collapse>
-                    <ListItemButton className={stylesProducts.listItem}>
-                        <ListItemText>
-                            <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Construction Equipment</span>
-                        </ListItemText>
-                    </ListItemButton>
-                    <ListItemButton className={stylesProducts.listItem}>
-                        <ListItemText>
-                            <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Quality Air Solutions</span>
-                        </ListItemText>
-                    </ListItemButton>
-                    <ListItemButton className={stylesProducts.listItem}>
-                        <ListItemText>
-                            <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Alternate Inline Air Filter Elements</span>
-                        </ListItemText>
-                    </ListItemButton>
-                    <ListItemButton className={stylesProducts.listItem}>
-                        <ListItemText>
-                            <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>CP Air Tools</span>
-                        </ListItemText>
-                    </ListItemButton>
+                    <Link href='/construction'>
+                        <ListItemButton className={stylesProducts.listItem}>
+                            <ListItemText>
+                                <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Construction Equipment</span>
+                            </ListItemText>
+                        </ListItemButton>
+                    </Link>
+                    <Link href='/solutions'>
+                        <ListItemButton className={stylesProducts.listItem}>
+                            <ListItemText>
+                                <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Quality Air Solutions</span>
+                            </ListItemText>
+                        </ListItemButton>
+                    </Link>
+                    <Link href='/filters'>
+                        <ListItemButton className={stylesProducts.listItem}>
+                            <ListItemText>
+                                <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Alternate Inline Air Filter Elements</span>
+                            </ListItemText>
+                        </ListItemButton>
+                    </Link>
+                    <Link href='/tools'>
+                        <ListItemButton className={stylesProducts.listItem}>
+                            <ListItemText>
+                                <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>CP Air Tools</span>
+                            </ListItemText>
+                        </ListItemButton>
+                    </Link>
                 </List>
                 {isMobile ? null : <Footer />}
             </div>

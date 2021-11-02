@@ -124,3 +124,13 @@
 .gridItem{
     margin-bottom: 30px;
 }
+
+.gridItemTitle{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 4px solid var(--secondary);
+    color: var(--primary);
+}

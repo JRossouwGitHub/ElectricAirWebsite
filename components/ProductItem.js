@@ -6,7 +6,7 @@ import EADot from '../img/Icons/EA Symbol.png'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
-const ProductItem = ({image, title, series, features}) => {
+const ProductItem = ({image, title, series, features, suitable}) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -43,6 +43,21 @@ const ProductItem = ({image, title, series, features}) => {
                                         <br />
                                     </div>)
                                 )}
+                                {suitable ? (<>
+                                    <br /><br /><strong>Suitable For:</strong><br />
+                                    {suitable.map((item, i) => 
+                                        (<div key={i} className={stylesProducts.productDiv}>
+                                            <Image
+                                                src={EADot}
+                                                alt={title + ' Img'}
+                                                width={15}
+                                                height={15}
+                                                />
+                                            <span className={stylesProducts.productFeatures}>{item}</span>
+                                            <br />
+                                        </div>)
+                                    )}
+                                </>) : null}
                             </div>
                         </Grid>
                     </Grid>

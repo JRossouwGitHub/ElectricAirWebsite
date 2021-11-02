@@ -12,7 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import { fontSize } from '@mui/system';
+import Link from 'next/link'
 
 const products = () => {
     const theme = useTheme();
@@ -22,6 +22,7 @@ const products = () => {
     const handleClick = () => {
         setOpen(!open);
     };
+
     return (
         <div className={styles.root}>
             <Meta title={'Products'} />
@@ -41,11 +42,13 @@ const products = () => {
                     </ListItemButton>
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <List component="div" disablePadding>
-                            <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
-                                <ListItemText>
-                                    <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Rotary Screw</span>
-                                </ListItemText>
-                            </ListItemButton>
+                            <Link href='/rotary'>
+                                <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
+                                    <ListItemText>
+                                        <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Rotary Screw</span>
+                                    </ListItemText>
+                                </ListItemButton>
+                            </Link>
                             <ListItemButton sx={{ pl: 4 }} className={stylesProducts.listSubItem}>
                                 <ListItemText>
                                     <span className={isMobile ? stylesProducts.listItemTextM : stylesProducts.listItemText}>Reciprocating</span>

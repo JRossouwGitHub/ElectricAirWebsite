@@ -7,12 +7,12 @@ import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import ProductItem from '../components/ProductItem';
-import RS1 from '../img/Rotary Screw/rs1.png'
-import RS2 from '../img/Rotary Screw/rs2.png'
-import RS3 from '../img/Rotary Screw/rs3.png'
-import RS4 from '../img/Rotary Screw/rs4.png'
-import RS5 from '../img/Rotary Screw/rs5.png'
-import RS6 from '../img/Rotary Screw/rs6.png'
+import RS1 from '../img/Rotary Screw/rs1.PNG'
+import RS2 from '../img/Rotary Screw/rs2.PNG'
+import RS3 from '../img/Rotary Screw/rs3.PNG'
+import RS4 from '../img/Rotary Screw/rs4.PNG'
+import RS5 from '../img/Rotary Screw/rs5.PNG'
+import RS6 from '../img/Rotary Screw/rs6.PNG'
 
 const rotary = () => {
     const theme = useTheme();

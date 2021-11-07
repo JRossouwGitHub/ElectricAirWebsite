@@ -96,7 +96,7 @@ const index = () => {
                             </Grid>
                         </Grid>
                     </Box>
-                    <br />
+                    {isMobile ? null : <><br /><br /></>}
                     <Link href='/services'>
                         <Button variant="contained" color='secondary' className={stylesIndex.fom}>Find Out More</Button>
                     </Link>

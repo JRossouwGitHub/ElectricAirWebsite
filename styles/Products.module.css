@@ -13,7 +13,7 @@
     padding-bottom: 15px;
 }
 
-.listItem > *{
+.listItem > *:not(:first-child):not(:last-child){
     color: var(--primary);
     border-top: 1px solid var(--primary);
     border-bottom: 1px solid var(--primary);
@@ -21,7 +21,7 @@
     border-right: 2px solid var(--primary);
 }
 
-.listItem:hover, .listItem > *:hover{
+.listItem:hover, .listItem:first-child, .listItem:last-child, .listItem > *:not(:first-child):not(:last-child):hover{
     color: white;
     background-color: var(--primary);
 }
@@ -53,7 +53,7 @@
     background-color: var(--offWhite);
 }
 
-.listSubItem:hover, .listSubItem>*:hover{
+.listSubItem:hover, .listSubItem > *:hover{
     color: white;
     background-color: var(--secondary);
 }

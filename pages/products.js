@@ -27,12 +27,11 @@ const products = () => {
         <div className={styles.root}>
             <Meta title={'Products'} />
             <Tabs active={[false, false, true, false]} />
-            <div className={styles.container}>
+            <div className={isMobile ? stylesProducts.listM : stylesProducts.list}>
                 <List
                     sx={{ width: '100%', bgcolor: 'background.paper' }}
                     component="nav"
                     aria-labelledby="nested-list-subheader"
-                    className={isMobile? stylesProducts.listM : stylesProducts.list}
                     >
                     <ListItemButton onClick={handleClick} className={stylesProducts.listItem}>
                         <ListItemText>

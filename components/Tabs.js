@@ -1,4 +1,5 @@
-import styles from '../styles/Tabs.module.css';
+import styles from '../styles/Layout.module.css'
+import stylesTabs from '../styles/Tabs.module.css';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Link from 'next/link'
@@ -14,32 +15,32 @@ const Tabs = ({active}) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     return (
-        <div className={styles.root}>
+        <div className={stylesTabs.root}>
             {isMobile ? null : (<>
-                <Link href="/" className={styles.link}>
-                    <ListItem className={activeH ? styles.linkBtnActive : styles.linkBtn}>
-                        <ListItemIcon className={activeH ? styles.linkImgActive : styles.linkImg}>
+                <Link href="/" className={stylesTabs.link}>
+                    <ListItem className={activeH ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
+                        <ListItemIcon className={activeH ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
                             <ion-icon name="home"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/services" className={styles.link}>
-                    <ListItem className={activeS ? styles.linkBtnActive : styles.linkBtn}>
-                        <ListItemIcon className={activeS ? styles.linkImgActive : styles.linkImg}>
+                <Link href="/services" className={stylesTabs.link}>
+                    <ListItem className={activeS ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
+                        <ListItemIcon className={activeS ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
                             <ion-icon name="construct"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/products" className={styles.link}>
-                    <ListItem className={activeP ? styles.linkBtnActive : styles.linkBtn}>
-                        <ListItemIcon className={activeP ? styles.linkImgActive : styles.linkImg}>
+                <Link href="/products" className={stylesTabs.link}>
+                    <ListItem className={activeP ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
+                        <ListItemIcon className={activeP ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
                             <ion-icon name="pricetags"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/contact" className={styles.link}>
-                    <ListItem className={activeC ? styles.linkBtnActive : styles.linkBtn}>
-                        <ListItemIcon className={activeC ? styles.linkImgActive : styles.linkImg}>
+                <Link href="/contact" className={stylesTabs.link}>
+                    <ListItem className={activeC ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
+                        <ListItemIcon className={activeC ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
                             <ion-icon name="call"></ion-icon>
                         </ListItemIcon>
                     </ListItem>

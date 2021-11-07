@@ -68,9 +68,11 @@ const index = () => {
                             </Grid>
                         </Grid>
                     </Box>
+                    <br />
                     <Link href='/services'>
                         <Button variant="contained" color='secondary' className={stylesIndex.fom}>Find Out More</Button>
                     </Link>
+                    <br />
                 </div>
                 <div className={stylesIndex.products}>
                     <h1>Product Range</h1>
@@ -79,9 +81,11 @@ const index = () => {
                             <Grid item lg={6} md={6} sm={12} xs={12} className={stylesIndex.item}>
                                 <div>
                                     {isMobile ? <h3>Electric Air has wide range of products to offer, from Air Compressors to Contruction Equipment and more!</h3> : <h1>Electric Air has wide range of products to offer, from Air Compressors to Contruction Equipment and more!</h1>}
+                                    <br />
                                     <Link href='/products'>
                                         <Button variant="contained" color='primary' className={stylesIndex.fom}>Explore Products</Button>
                                     </Link>
+                                    <br />
                                 </div>
                             </Grid>
                             <Grid item lg={6} md={6} sm={12} xs={12} className={stylesIndex.item}>
@@ -100,9 +104,11 @@ const index = () => {
                 <div className={stylesIndex.contact}>
                     <h1>Want To Find Out A Little More?</h1>
                     <p>If you would like more information, please give us a call or send a message!</p>
+                    <br />
                     <Link href='/contact'>
                         <Button variant="contained" color='secondary' className={stylesIndex.fom}>Contact Us</Button>
                     </Link>
+                    <br />
                     <br /><br />
                 </div>
                 {isMobile ? null : <Footer />}

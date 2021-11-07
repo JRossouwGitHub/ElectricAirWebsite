@@ -11,7 +11,7 @@
     color: var(--secondary);
 }
 
-.linkImgActive{
+.linkImgActive, .linkImgActive>:only-child{
     display: block;
     width: max-content;
     margin: 0 auto;
@@ -30,7 +30,7 @@
     border-bottom: 4px solid var(--secondary);
 }
 
-.linkImg{
+.linkImg, .linkImg>:only-child{
     display: block;
     width: max-content;
     margin: 0 auto;
@@ -50,8 +50,4 @@
 .linkImg>:only-child, .linkImgActive>:only-child{
     display: block;
     margin: 0 auto;
-}
-
-.inherit{
-    color: inherit;
 }

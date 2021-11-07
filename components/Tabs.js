@@ -20,28 +20,28 @@ const Tabs = ({active}) => {
                 <Link href="/" className={stylesTabs.link}>
                     <ListItem className={activeH ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
                         <ListItemIcon className={activeH ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
-                            <span className={stylesTabs.inherit}><ion-icon name="home"></ion-icon></span>
+                            <ion-icon name="home"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/services" className={stylesTabs.link}>
                     <ListItem className={activeS ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
                         <ListItemIcon className={activeS ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
-                            <span className={stylesTabs.inherit}><ion-icon name="construct"></ion-icon></span>
+                            <ion-icon name="construct"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/products" className={stylesTabs.link}>
                     <ListItem className={activeP ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
                         <ListItemIcon className={activeP ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
-                            <span className={stylesTabs.inherit}><ion-icon name="pricetags"></ion-icon></span>
+                            <ion-icon name="pricetags"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/contact" className={stylesTabs.link}>
                     <ListItem className={activeC ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
                         <ListItemIcon className={activeC ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
-                            <span className={stylesTabs.inherit}><ion-icon name="call"></ion-icon></span>
+                            <ion-icon name="call"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>

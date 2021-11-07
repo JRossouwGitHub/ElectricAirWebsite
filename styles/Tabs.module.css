@@ -3,12 +3,12 @@
 }
 
 .link{
-    color: var(--primary);
+    color: #00B100;
 }
 
 .link:hover{
     background-color: none;
-    color: var(--secondary);
+    color: #0000C7;
 }
 
 .linkImgActive{
@@ -17,8 +17,8 @@
     margin: 0 auto;
     font-size: 60px;
     padding: 15px;
-    color: var(--secondary);
-    border: 2px solid var(--secondary);
+    color: #0000C7;
+    border: 2px solid #0000C7;
     border-radius: 60px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .linkBtnActive{
-    border-bottom: 4px solid var(--secondary);
+    border-bottom: 4px solid #0000C7;
 }
 
 .linkImg{
@@ -36,14 +36,14 @@
     margin: 0 auto;
     font-size: 60px;
     padding: 15px;
-    color: var(--primary);
-    border: 2px solid var(--primary);
+    color: #00B100;
+    border: 2px solid #00B100;
     border-radius: 60px;
 }
 
 .linkImg:hover{
-    color: var(--secondary);
-    border: 2px solid var(--secondary);
+    color: #0000C7;
+    border: 2px solid #0000C7;
     cursor: pointer;
 }
 

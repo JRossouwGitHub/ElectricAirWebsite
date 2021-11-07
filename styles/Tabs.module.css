@@ -17,6 +17,9 @@
     margin: 0 auto;
     font-size: 60px;
     padding: 15px;
+}
+
+.linkImgActive>:only-child{
     color: #0000C7;
     border: 2px solid #0000C7;
     border-radius: 60px;
@@ -36,6 +39,9 @@
     margin: 0 auto;
     font-size: 60px;
     padding: 15px;
+}
+
+.linkImg>:only-child{
     color: #00B100;
     border: 2px solid #00B100;
     border-radius: 60px;

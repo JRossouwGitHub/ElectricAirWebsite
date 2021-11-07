@@ -42,7 +42,7 @@
     border-right: 2px solid var(--primary);
 }
 
-.listSubItem>:nth-child(){
+.listSubItem:nth-child(){
     color: var(--secondary);
     border-bottom: 1px solid var(--secondary);
     border-left: 2px solid var(--secondary);

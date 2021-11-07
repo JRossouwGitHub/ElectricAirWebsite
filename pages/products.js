@@ -28,7 +28,6 @@ const products = () => {
             <Meta title={'Products'} />
             <Tabs active={[false, false, true, false]} />
             <div className={styles.container}>
-
                 <div className={isMobile ? stylesProducts.listM : stylesProducts.list}>
                     <List
                         sx={{ width: '100%', bgcolor: 'background.paper' }}
@@ -102,8 +101,8 @@ const products = () => {
                             </ListItemButton>
                         </Link>
                     </List>
-                    {isMobile ? null : <Footer />}
                 </div>
+                {isMobile ? null : <Footer />}
             </div>
         </div>
     )

@@ -12,8 +12,36 @@ import Image from 'next/image'
 import EAImage from '../img/IDs/ID_Team_2.jpg'
 import AllProducts from '../img/All Products.png'
 import Cardlet from '../components/Cardlet'
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles({
+    linkImg: {
+        '&:hover': {
+            cursor: 'pointer',
+            color: '#0000C7',
+            border: '2px solid #0000C7',
+        },
+        '&>:only-child':{
+            display: 'block',
+            margin: '0 auto',
+        },
+        display: 'block',
+        width: 'max-content',
+        margin: '0 auto',
+        fontSize:' 60px',
+        padding: '15px',
+        color: '#00B100',
+        border: '2px solid #00B100',
+        borderRadius: '50%',
+    },
+    itemCard: {
+        marginBottom: '50px',
+    },
+});
 
 const index = () => {
+    const classes = useStyles();
+
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     return (
@@ -54,16 +82,16 @@ const index = () => {
                     <br /><br />
                     <Box sx={{ width: '100%' }}>
                         <Grid container>
-                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? stylesIndex.itemCard : null}>
+                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
                                 <Cardlet icon={<ion-icon name="sparkles"></ion-icon>} title={'15 Years Experience'} desc={'Our technicians are fully equiped to effeciently repair your equipment with minimal downtime!'} />
                             </Grid>
-                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? stylesIndex.itemCard : null}>
+                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
                                 <Cardlet icon={<ion-icon name="color-filter"></ion-icon>} title={'All Inclusive'} desc={'From Oil Free to Rotary Screw, our technicians can handle the pressure!'} />
                             </Grid>
-                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? stylesIndex.itemCard : null}>
+                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
                                 <Cardlet icon={<ion-icon name="fitness"></ion-icon>} title={'Breakdowns'} desc={'24/7 breakdown service, any time day or night. Our team is ready to support all your compressed air needs!'} />
                             </Grid>
-                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? stylesIndex.itemCard : null}>
+                            <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
                                 <Cardlet icon={<ion-icon name="thumbs-up"></ion-icon>} title={'Quality Service'} desc={'With the use of quality parts and a team who cares, rest assured your equipment is well looked after!'} />
                             </Grid>
                         </Grid>

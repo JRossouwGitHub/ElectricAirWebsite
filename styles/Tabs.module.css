@@ -11,7 +11,7 @@
     color: var(--secondary);
 }
 
-.linkImgActive, .linkImgActive>:only-child{
+.linkImgActive{
     display: block;
     width: max-content;
     margin: 0 auto;
@@ -30,7 +30,7 @@
     border-bottom: 4px solid var(--secondary);
 }
 
-.linkImg, .linkImg>:only-child{
+.linkImg{
     display: block;
     width: max-content;
     margin: 0 auto;

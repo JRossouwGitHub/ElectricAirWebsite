@@ -1,12 +1,66 @@
-import styles from '../styles/Layout.module.css'
-import stylesTabs from '../styles/Tabs.module.css';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Link from 'next/link'
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles({
+    root: {
+        display: 'flex',
+        flexDirection: 'row',
+    },
+    link: {
+        '&:hover': {
+            backgroundColor: 'none',
+            color: '#0000C7',
+        },
+        color: '#00B100',
+    },
+    linkImgActive: {
+        '&:hover': {
+            cursor: 'pointer',
+        },
+        '&>:only-child':{
+            display: 'block',
+            margin: '0 auto',
+        },
+        display: 'block',
+        width: 'max-content',
+        margin: '0 auto',
+        fontSize: '60px',
+        padding: '15px',
+        color: '#0000C7',
+        border: '2px solid #0000C7',
+        borderRadius: '50%',
+    },
+    linkBtnActive: {
+        borderBottom: '4px solid #0000C7',
+    },
+    linkImg: {
+        '&:hover': {
+            cursor: 'pointer',
+            color: '#0000C7',
+            border: '2px solid #0000C7',
+        },
+        '&>:only-child':{
+            display: 'block',
+            margin: '0 auto',
+        },
+        display: 'block',
+        width: 'max-content',
+        margin: '0 auto',
+        fontSize:' 60px',
+        padding: '15px',
+        color: '#00B100',
+        border: '2px solid #00B100',
+        borderRadius: '50%',
+    },
+});
 
 const Tabs = ({active}) => {
+    const classes = useStyles();
+
     const activeH = active[0]
     const activeS = active[1]
     const activeP = active[2]
@@ -15,32 +69,32 @@ const Tabs = ({active}) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('md'));
     return (
-        <div className={stylesTabs.root}>
+        <div className={classes.root}>
             {isMobile ? null : (<>
-                <Link href="/" className={stylesTabs.link}>
-                    <ListItem className={activeH ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon className={activeH ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                <Link href="/" className={classes.link}>
+                    <ListItem className={activeH ? classes.linkBtnActive : classes.linkBtn}>
+                        <ListItemIcon className={activeH ? classes.linkImgActive : classes.linkImg}>
                             <ion-icon name="home"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/services" className={stylesTabs.link}>
-                    <ListItem className={activeS ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon className={activeS ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                <Link href="/services" className={classes.link}>
+                    <ListItem className={activeS ? classes.linkBtnActive : classes.linkBtn}>
+                        <ListItemIcon className={activeS ? classes.linkImgActive : classes.linkImg}>
                             <ion-icon name="construct"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/products" className={stylesTabs.link}>
-                    <ListItem className={activeP ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon className={activeP ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                <Link href="/products" className={classes.link}>
+                    <ListItem className={activeP ? classes.linkBtnActive : classes.linkBtn}>
+                        <ListItemIcon className={activeP ? classes.linkImgActive : classes.linkImg}>
                             <ion-icon name="pricetags"></ion-icon>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
-                <Link href="/contact" className={stylesTabs.link}>
-                    <ListItem className={activeC ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon className={activeC ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                <Link href="/contact" className={classes.link}>
+                    <ListItem className={activeC ? classes.linkBtnActive : classes.linkBtn}>
+                        <ListItemIcon className={activeC ? classes.linkImgActive : classes.linkImg}>
                             <ion-icon name="call"></ion-icon>
                         </ListItemIcon>
                     </ListItem>

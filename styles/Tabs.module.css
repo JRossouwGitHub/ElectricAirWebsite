@@ -47,8 +47,10 @@
     border-radius: 60px;
 }
 
-.linkImg:hover{
+.linkImg:hover>:only-child{
     color: #0000C7;
+    padding: 15px;
+    border-radius: 60px;
     border: 2px solid #0000C7;
     cursor: pointer;
 }

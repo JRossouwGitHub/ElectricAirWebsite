@@ -4,63 +4,8 @@ import { useTheme } from '@mui/material/styles';
 import Link from 'next/link'
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
-import { makeStyles } from '@mui/styles';
-
-const useStyles = makeStyles({
-    root: {
-        display: 'flex',
-    },
-    link: {
-        '&:hover': {
-            backgroundColor: 'none',
-            color: '#0000C7',
-        },
-        color: '#00B100',
-    },
-    linkImgActive: {
-        '&:hover': {
-            cursor: 'pointer',
-        },
-        '&>:only-child':{
-            display: 'block',
-            margin: '0 auto',
-        },
-        display: 'block',
-        width: 'max-content',
-        margin: '0 auto',
-        fontSize: '60px',
-        padding: '15px',
-        color: '#0000C7',
-        border: '2px solid #0000C7',
-        borderRadius: '50%',
-    },
-    linkBtnActive: {
-        borderBottom: '4px solid #0000C7',
-    },
-    linkImg: {
-        '&:hover': {
-            cursor: 'pointer',
-            color: '#0000C7',
-            border: '2px solid #0000C7',
-        },
-        '&>:only-child':{
-            display: 'block',
-            margin: '0 auto',
-        },
-        display: 'block',
-        width: 'max-content',
-        margin: '0 auto',
-        fontSize:' 60px',
-        padding: '15px',
-        color: '#00B100',
-        border: '2px solid #00B100',
-        borderRadius: '50%',
-    },
-});
 
 const Tabs = ({active}) => {
-    const classes = useStyles();
-
     const activeH = active[0]
     const activeS = active[1]
     const activeP = active[2]

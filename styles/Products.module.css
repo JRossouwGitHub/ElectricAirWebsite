@@ -1,4 +1,4 @@
-.list{
+.list>:only-child{
     display: block;
     width: 600px;
     margin: 0 auto;

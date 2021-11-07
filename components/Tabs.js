@@ -19,29 +19,29 @@ const Tabs = ({active}) => {
             {isMobile ? null : (<>
                 <Link href="/" className={stylesTabs.link}>
                     <ListItem className={activeH ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon>
-                            <ion-icon name="home" className={activeH ? stylesTabs.linkImgActive : stylesTabs.linkImg}></ion-icon>
+                        <ListItemIcon className={activeH ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                            <span className={stylesTabs.inherit}><ion-icon name="home"></ion-icon></span>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/services" className={stylesTabs.link}>
                     <ListItem className={activeS ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon>
-                            <ion-icon name="construct" className={activeS ? stylesTabs.linkImgActive : stylesTabs.linkImg}></ion-icon>
+                        <ListItemIcon className={activeS ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                            <span className={stylesTabs.inherit}><ion-icon name="construct"></ion-icon></span>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/products" className={stylesTabs.link}>
                     <ListItem className={activeP ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon>
-                            <ion-icon name="pricetags" className={activeP ? stylesTabs.linkImgActive : stylesTabs.linkImg}></ion-icon>
+                        <ListItemIcon className={activeP ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                            <span className={stylesTabs.inherit}><ion-icon name="pricetags"></ion-icon></span>
                         </ListItemIcon>
                     </ListItem>
                 </Link>
                 <Link href="/contact" className={stylesTabs.link}>
                     <ListItem className={activeC ? stylesTabs.linkBtnActive : stylesTabs.linkBtn}>
-                        <ListItemIcon>
-                            <ion-icon name="call" className={activeC ? stylesTabs.linkImgActive : stylesTabs.linkImg}></ion-icon>
+                        <ListItemIcon className={activeC ? stylesTabs.linkImgActive : stylesTabs.linkImg}>
+                            <span className={stylesTabs.inherit}><ion-icon name="call"></ion-icon></span>
                         </ListItemIcon>
                     </ListItem>
                 </Link>

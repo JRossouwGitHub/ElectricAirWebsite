@@ -2,6 +2,7 @@ import styles from '../styles/Layout.module.css'
 import stylesProducts from '../styles/Products.module.css'
 import Tabs from '../components/Tabs'
 import Meta from '../components/Meta'
+import Footer from '../components/Footer'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';

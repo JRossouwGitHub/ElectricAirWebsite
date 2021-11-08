@@ -65,7 +65,7 @@
     color: black;
 }
 
-.linkImg{
+.linkImg, .linkImg:nth-child(n+1), .linkImg:only-child{
     color: var(--primary);
     font-size: 28px;
 }

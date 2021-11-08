@@ -14,7 +14,7 @@ import QAS3 from '../img/Quality Air Solutions/qas3.PNG'
 import QAS4 from '../img/Quality Air Solutions/qas4.PNG'
 import QAS5 from '../img/Quality Air Solutions/qas5.PNG'
 import QAS6 from '../img/Quality Air Solutions/qas6.PNG'
-import QAS7 from '../img/Quality Air Solutions/qas7.PNG'
+import QAS7 from '../img/Quality Air Solutions/qas7.png'
 
 const solutions = () => {
     const theme = useTheme();

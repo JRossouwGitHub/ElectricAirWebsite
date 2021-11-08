@@ -41,6 +41,7 @@ const oilfree = () => {
                     </Grid>
                 </Box>
             </div>
+            {isMobile ? null : <Footer />}
         </div>
     )
 }

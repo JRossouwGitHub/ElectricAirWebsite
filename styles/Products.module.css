@@ -121,7 +121,7 @@
     padding-left: 5px;
 }
 
-.gridItem{
+.gridItem, .gridItem:only-child{
     margin-bottom: 30px;
 }
 

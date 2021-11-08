@@ -49,6 +49,7 @@ const rotary = () => {
                     </Grid>
                 </Box>
             </div>
+            {isMobile ? null : <Footer />}
         </div>
     )
 }

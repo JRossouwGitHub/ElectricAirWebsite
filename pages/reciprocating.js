@@ -56,6 +56,7 @@ const reciprocating = () => {
                     </Grid>
                 </Box>
             </div>
+            {isMobile ? null : <Footer />}
         </div>
     )
 }

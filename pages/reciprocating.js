@@ -27,7 +27,7 @@ const reciprocating = () => {
                     <strong className={stylesProducts.headingTitle}>Reciprocating</strong>
                 </div>
                 <Box sx={{ width: '100%'}}>
-                    <Grid container>
+                    <Grid container className={stylesProducts.gridContainer}>
                         <Grid item lg={12} md={12} sm={12} xs={12}>
                             <h1 className={stylesProducts.gridItemTitle}>Single Phase</h1>    
                         </Grid>

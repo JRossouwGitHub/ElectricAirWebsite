@@ -28,7 +28,7 @@ const rotary = () => {
                     <strong className={stylesProducts.headingTitle}>Rotary Screw</strong>
                 </div>
                 <Box sx={{ width: '100%'}}>
-                    <Grid container>
+                    <Grid container className={stylesProducts.gridContainer}>
                         <Grid item lg={6} md={6} sm={12} xs={12} className={stylesProducts.gridItem}>
                             <ProductItem image={RS1} title={'FLOOR & TANK MOUNTED'} series={'CSM MINI / MAXI Series'} features={['ES 4000 Controller', '100% continuous duty cycle', 'Lower Service costs and extended service intervals', 'Reduced Power Consumption', 'Very low vibration and noise level', 'Easy installation & maintenance', 'Robust and efficient compressor elements']} />
                         </Grid>

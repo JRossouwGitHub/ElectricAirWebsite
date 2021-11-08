@@ -121,7 +121,7 @@
     padding-left: 5px;
 }
 
-.gridItem, .gridItem:only-child{
+.gridItem, .gridItem:nth-child(n+1), .gridContainer:nth-child(n+1){
     margin-bottom: 30px;
 }
 

@@ -26,7 +26,7 @@ const oilfree = () => {
                     <strong className={stylesProducts.headingTitle}>Reciprocating</strong>
                 </div>
                 <Box sx={{ width: '100%'}}>
-                    <Grid container>
+                    <Grid container className={stylesProducts.gridContainer}>
                         <Grid item lg={6} md={6} sm={12} xs={12} className={stylesProducts.gridItem}>
                             <ProductItem image={OF1} title={'FLOOR MOUNTED ROTARY SCREW'} series={'WIS 40 - 75 Series'} features={['Drive Efficiency', 'Integrated Coolers', 'Quiet Operation', 'Easy Installation', 'Easy Maintenance', 'Up to 30% energy savings', 'Water Cooled', 'Zero Contaminants', 'Oil Free']} />
                         </Grid>

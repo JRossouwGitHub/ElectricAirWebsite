@@ -83,7 +83,7 @@
 .productImg{
     display: block;
     width: 80%;
-    height: 500px;
+    height: 575px;
     margin: 0 auto;
     border: 2px solid var(--primary);
     border-radius: 15px;

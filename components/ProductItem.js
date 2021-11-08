@@ -15,16 +15,17 @@ const ProductItem = ({image, title, series, features, suitable}) => {
             <div className={isMobile ? stylesProducts.productImgM : stylesProducts.productImg}>
                 <Box sx={{ width: '100%'}}>
                     <Grid container className={stylesProducts.productContainer}>
-                        <Grid item lg={6} md={6} sm={12} xs={12}>
-                            <div className={stylesProducts.img}>
-                                <Image
-                                    src={image}
-                                    alt={title + ' Img'}
-                                    width={265}
-                                    height={265}
-                                    />
-                            </div>
-                        </Grid>
+                        {image ? 
+                            <Grid item lg={6} md={6} sm={12} xs={12}>
+                                <div className={stylesProducts.img}>
+                                    <Image
+                                        src={image}
+                                        alt={title + ' Img'}
+                                        width={265}
+                                        height={265}
+                                        />
+                                </div>
+                            </Grid> : null}
                         <Grid item lg={6} md={6} sm={12} xs={12}>
                             <div className={stylesProducts.productDetails}>
                                 <h2>{title}</h2>

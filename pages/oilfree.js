@@ -23,7 +23,7 @@ const oilfree = () => {
             <Tabs active={[false, false, true, false]} />
             <div className={styles.container}>
                 <div className={stylesProducts.headingBG}>
-                    <strong className={stylesProducts.headingTitle}>Reciprocating</strong>
+                    <strong className={stylesProducts.headingTitle}>Oil Free</strong>
                 </div>
                 <Box sx={{ width: '100%'}}>
                     <Grid container className={stylesProducts.gridContainer}>

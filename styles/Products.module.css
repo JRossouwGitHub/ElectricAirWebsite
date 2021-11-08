@@ -21,7 +21,7 @@
     border-right: 2px solid var(--primary);
 }
 
-.listItem:hover, .listItem:nth-child(n+1):hover{
+.listItem:hover, .listItem:nth-child(n+1):not(:first-child):not(:last-child):hover, .listItem:first-child, .listItem:last-child{
     color: white;
     background-color: var(--primary);
 }

@@ -46,7 +46,7 @@
     border: 2px solid var(--primary);
 }
 
-.grid, .gridItem:nth-child(n+1){
+.grid, .grid:nth-child(n+1){
     display: block;
     width: 85%;
     margin: 0 auto;

@@ -46,19 +46,16 @@ const services = () => {
                                 <div className={stylesServices.title}>
                                     <h1>Small Motors</h1>
                                 </div>
-                                <ListItem text={'Distributor of Ceccato Air Compressors, Refrigerated Air Dryers, Mainline Filters and Genuine Parts.'} />
-                                <ListItem text={'Sales, Service and Installation of Air Compressors (Rotary Screw and Piston).'} />
-                                <ListItem text={'Sales, Service and Installation of all Compressed Air Accessories.'} />
-                                <ListItem text={'Sales, Service and Installation of Pneumatic Equipment.'} />
-                                <ListItem text={'Sales, Service and Repair of Airless Spray Equipment.'} />
-                                <ListItem text={'Sales, Service and Repair of Air Operated Thrusters (Grundomats).'} />
-                                <ListItem text={'Air Leak Testing.'} />
-                                <ListItem text={'Air Quality/Micro Testing.'} />
-                                <ListItem text={'Air Reticulation/Pipe Work Installation.'} />
-                                <ListItem text={'Air and Electrical Tools.'} />
-                                <ListItem text={'General Engineering.'} />
-                                <ListItem text={'Plant Maintenance.'} />
-                                <ListItem text={'24/7 Breakdown Service, Any Time Day or Night.'} />
+                                <ListItem text={'Services and Repair.'} />
+                                <ListItem text={'Pasload Nail Guns and Air Tools.'} />
+                                <ListItem text={'Airless Sprayers (all types).'} />
+                                <ListItem text={'From Lawnmowers to Small Bikes/Quads.'} />
+                                <ListItem text={'Electric Scooters.'} />
+                                <ListItem text={'Petrol/Electric Water-blasters.'} />
+                                <ListItem text={'New and Secondhand parts.'} />
+                                <ListItem text={'Same Day Turnaround for Most Jobs.'} />
+                                <ListItem text={'30+ Years in the Field.'} />
+                                <a className={stylesServices.link} href='https://www.facebook.com/smdismantlers' target="_blank"><strong>For more information, please visit our Facebook page!</strong></a>
                             </div>
                         </Grid>
                     </Grid>

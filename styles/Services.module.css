@@ -37,3 +37,16 @@
     padding: 30px;
     color: var(--secondary);
 }
+
+.link, .link:active, .link:visited{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

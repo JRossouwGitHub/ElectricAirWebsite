@@ -83,7 +83,7 @@ const index = () => {
                     <Box sx={{ width: '100%' }}>
                         <Grid container>
                             <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
-                                <Cardlet icon={<ion-icon name="sparkles"></ion-icon>} title={'15 Years Experience'} desc={'Our technicians are fully equiped to effeciently repair your equipment with minimal downtime!'} />
+                                <Cardlet icon={<ion-icon name="sparkles"></ion-icon>} title={'25 Years Experience'} desc={'Our technicians are fully equiped to effeciently repair your equipment with minimal downtime!'} />
                             </Grid>
                             <Grid item lg={3} md={3} sm={12} xs={12} className={isMobile ? classes.itemCard : null}>
                                 <Cardlet icon={<ion-icon name="color-filter"></ion-icon>} title={'All Inclusive'} desc={'From Oil Free to Rotary Screw, our technicians can handle the pressure!'} />

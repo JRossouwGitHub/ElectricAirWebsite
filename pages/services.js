@@ -19,9 +19,9 @@ const services = () => {
             <Meta title={'Services'} />
             <Tabs active={[false, true, false, false]} />
             <div className={styles.container}>
-                <Box sx={{ width: '100%'}} className={stylesServices.grid}>
+                <Box sx={{ width: 'max-content'}} className={!isMobile ? stylesServices.grid : stylesServices.gridM}>
                     <Grid container>
-                        <Grid item lg={6} md={6} sm={12} xs={12}>
+                        <Grid item lg={12} md={12} sm={12} xs={12}>
                             <div className={stylesServices.item}>
                                 <div className={stylesServices.title}>
                                     <h1>Compressed Air</h1>
@@ -30,7 +30,6 @@ const services = () => {
                                 <ListItem text={'Sales, Service and Installation of Air Compressors (Rotary Screw and Piston).'} />
                                 <ListItem text={'Sales, Service and Installation of all Compressed Air Accessories.'} />
                                 <ListItem text={'Sales, Service and Installation of Pneumatic Equipment.'} />
-                                <ListItem text={'Sales, Service and Repair of Airless Spray Equipment.'} />
                                 <ListItem text={'Sales, Service and Repair of Air Operated Thrusters (Grundomats).'} />
                                 <ListItem text={'Air Leak Testing.'} />
                                 <ListItem text={'Air Quality/Micro Testing.'} />
@@ -39,23 +38,6 @@ const services = () => {
                                 <ListItem text={'General Engineering.'} />
                                 <ListItem text={'Plant Maintenance.'} />
                                 <ListItem text={'24/7 Breakdown Service, Any Time Day or Night.'} />
-                            </div>
-                        </Grid>
-                        <Grid item lg={6} md={6} sm={12} xs={12}>
-                            <div className={stylesServices.item}>
-                                <div className={stylesServices.title}>
-                                    <h1>Small Motors</h1>
-                                </div>
-                                <ListItem text={'Services and Repair.'} />
-                                <ListItem text={'Pasload Nail Guns and Air Tools.'} />
-                                <ListItem text={'Airless Sprayers (all types).'} />
-                                <ListItem text={'From Lawnmowers to Small Bikes/Quads.'} />
-                                <ListItem text={'Electric Scooters.'} />
-                                <ListItem text={'Petrol/Electric Water-blasters.'} />
-                                <ListItem text={'New and Secondhand parts.'} />
-                                <ListItem text={'Same Day Turnaround for Most Jobs.'} />
-                                <ListItem text={'30+ Years in the Field.'} />
-                                <a className={stylesServices.link} href='https://www.facebook.com/smdismantlers' target="_blank"><strong>For more information, please visit our Facebook page!</strong></a>
                             </div>
                         </Grid>
                     </Grid>

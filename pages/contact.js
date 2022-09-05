@@ -46,12 +46,6 @@ const contact = () => {
                                             <ID ID={Jenny} name={'Jenny'} email={'jenny@electricair.co.nz'} mobile={'022 629 1167'} />
                                         </Grid>
                                         <Grid item lg={12} md={12} sm={12} xs={12}>
-                                            <h3 className={stylesContact.subTitle}>Workshop Manager</h3>
-                                        </Grid>
-                                        <Grid item lg={12} md={12} sm={12} xs={12}>
-                                            <ID ID={Steve} name={'Steve'} email={'steve@electricair.co.nz'} mobile={'022 287 6260'} />
-                                        </Grid>
-                                        <Grid item lg={12} md={12} sm={12} xs={12}>
                                             <h3 className={stylesContact.subTitle}>Technicians</h3>
                                         </Grid>
                                         <Grid item lg={6} md={6} sm={12} xs={12}>

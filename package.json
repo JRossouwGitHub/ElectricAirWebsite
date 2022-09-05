@@ -12,14 +12,14 @@
   "author": "Jacques Rossouw | PalmTop",
   "license": "ISC",
   "dependencies": {
-    "@emotion/react": "^11.5.0",
+    "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
-    "@mui/icons-material": "^5.0.5",
-    "@mui/material": "^5.0.6",
-    "@mui/styles": "^5.0.2",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.1",
     "install": "^0.13.0",
-    "next": "^12.0.2",
-    "npm": "^8.1.2",
+    "next": "^11.1.2",
+    "npm": "^8.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

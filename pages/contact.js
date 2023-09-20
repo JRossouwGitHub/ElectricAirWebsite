@@ -66,7 +66,7 @@ const contact = () => {
                                 <p><strong className={stylesContact.subTitle}>Business Hours:</strong></p>
                                 <p>Monday - Friday | 8:00am - 5:00pm</p>
                                 <p><strong className={stylesContact.subTitle}>Address:</strong></p>
-                                <p>7 Lake Road, Frankton | Hamilton, Waikato</p>
+                                <p>36 King Street, Frankton | Hamilton, Waikato</p>
                                 <br />
                                 <h2 className={stylesContact.subTitle}>Send Us A Message</h2>
                                 <form
@@ -95,7 +95,7 @@ const contact = () => {
                     </Grid>
                 </Box>
                 <div className={isMobile ? stylesContact.mapM : stylesContact.map}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12612.916535808637!2d175.2618898!3d-37.7846696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8da83356fb908540!2sElectric%20Air%20Ltd!5e0!3m2!1sen!2snz!4v1635817855853!5m2!1sen!2snz" className={isMobile ? stylesContact.iframeM : stylesContact.iframe} allowFullScreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.111028331609!2d175.2679423!3d-37.7874377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d2208bba1976d%3A0x6c6fc69b1b4db32!2s36%20King%20Street%2C%20Frankton%2C%20Hamilton%203204!5e0!3m2!1sen!2snz!4v1695203926046!5m2!1sen!2snz" className={isMobile ? stylesContact.iframeM : stylesContact.iframe} allowFullScreen="" loading="lazy"></iframe>
                 </div>
                 {isMobile ? null : <Footer />}
             </div>

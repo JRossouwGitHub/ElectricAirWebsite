@@ -10,6 +10,7 @@ const Meta = ({title, description}) => {
             <meta name="description" content={description} />
             <link rel="shortcut icon" href='/EA favicon.ico' />
             <title>Electric Air | {title}</title>
+            <script type="text/javascript" src="https://analytics.palmtop.co.nz/js/bundle/analytics.min.1.0.0.js"></script>
         </Head>
     )
 }

@@ -51,9 +51,6 @@ const contact = () => {
                                         <Grid item lg={6} md={6} sm={12} xs={12}>
                                             <ID ID={Fil} name={'Fil'} email={'fil@electricair.co.nz'} mobile={'022 017 8045'} />
                                         </Grid>
-                                        <Grid item lg={6} md={6} sm={12} xs={12}>
-                                            <ID ID={Manie} name={'Manie'} email={'manie@electricair.co.nz'} mobile={'027 690 9719'} />
-                                        </Grid>
                                     </Grid>
                                 </Box>
                             </Grid>
@@ -66,7 +63,7 @@ const contact = () => {
                                 <p><strong className={stylesContact.subTitle}>Business Hours:</strong></p>
                                 <p>Monday - Friday | 8:00am - 5:00pm</p>
                                 <p><strong className={stylesContact.subTitle}>Address:</strong></p>
-                                <p>36 King Street, Frankton | Hamilton, Waikato</p>
+                                <p>143A Clark Road, Ngāruawāhia, Waikato</p>
                                 <br />
                                 <h2 className={stylesContact.subTitle}>Send Us A Message</h2>
                                 <form
@@ -95,7 +92,7 @@ const contact = () => {
                     </Grid>
                 </Box>
                 <div className={isMobile ? stylesContact.mapM : stylesContact.map}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12612.916535808637!2d175.2618898!3d-37.7846696!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8da83356fb908540!2sElectric%20Air%20Ltd!5e0!3m2!1sen!2snz!4v1635817855853!5m2!1sen!2snz" className={isMobile ? stylesContact.iframeM : stylesContact.iframe} allowFullScreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12630.462332251891!2d175.150326!3d-37.6817397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d239973cb0c9f%3A0x8da83356fb908540!2sElectric%20Air%20Ltd!5e0!3m2!1sen!2snz!4v1723719508860!5m2!1sen!2snz" className={isMobile ? stylesContact.iframeM : stylesContact.iframe} allowFullScreen="" loading="lazy"></iframe>
                 </div>
                 {isMobile ? null : <Footer />}
             </div>
